@@ -1,68 +1,64 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 💻 DevCenter
+![DevCenter Home](https://i.imgur.com/lgI5HbC.png)
 
-## Available Scripts
+### ❔ O que é?
+O DevCenter é um projeto de estudos, onde eu tento reunir a maior quantidade de informação e conteúdo relacionado a tecnologia. Esse projeto está em andamento tudo o que está sendo apresentado pode mudar nas próximas versões<br/>
+<h4 align="center">🚧 DevCenter está em construção... 🚧<h4/>
 
-In the project directory, you can run:
 
-### `npm start`
+### ❗ Pre-requisitos
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### 🛠 Tecnologias
 
-### `npm test`
+As seguintes ferramentas foram usadas na construção do projeto:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ReactJS](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
+- [Node.js](https://nodejs.org/en/)
+- [JavaScript](https://www.javascript.com/)
 
-### `npm run build`
+### 💾 Bibliotecas
+As seguintes bibliotecas foram usadas na construção do projeto:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [StyledComponents](https://styled-components.com/)
+- [React Router Dom](https://reactrouter.com/)
+- [json-server](https://www.npmjs.com/package/json-server)
+- [prop-types](https://www.npmjs.com/package/prop-types)
+- [concurrently](https://www.npmjs.com/package/concurrently)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### 🎲 Rodando a aplicação
+Pra rodar o App é bem simples:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Clone este repositório
+`$ git clone https://github.com/KalebDev/devcenter`
 
-### `npm run eject`
+### Acesse a pasta do projeto no terminal/cmd
+`$ cd devcenter`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Instale as dependências
+`$ npm install`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Execute a aplicação em modo de desenvolvimento
+`$ npm run dev`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* O servidor inciará na porta:8080<br/>acesse <http://localhost:8080>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 🎲 Rodando o Back End (servidor)
+Pra rodar o servidor do Back End usando o json-server é bem simples:
 
-## Learn More
+### ❗ Antes de tudo você precisa ter clonado o repositório, veja como acima ☝️
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Acesse a pasta do projeto no terminal/cmd
+`$ cd devcenter`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Execute a aplicação em modo de desenvolvimento
+`$ node ./server.js`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+* O servidor inciará na porta:8080<br/>acesse <http://localhost:8080>
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### ✅ Testes
+*No momento não é possível executar testes na nossa aplicação* 😞
